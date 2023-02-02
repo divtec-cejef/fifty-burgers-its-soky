@@ -1,29 +1,117 @@
+* {
+    box-sizing: border-box;
+}
 
 header {
     background-color: black;
-    display: flex;
-    justify-content: center;
-    height: 160px;
     padding: 10px;
+    display: block;
+    text-align: center;
+}
 
+header img {
+    max-height: 160px;
 }
 
 h1 {
     font-family: "Georgia", serif;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 4em;
     color: #FDC032;
+    line-height: 0.9em;
 }
 
-body {
-    padding: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: auto ;
-    margin-bottom: auto;
+p {
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    line-height: 1.5em;
 }
 
 main {
     display: block;
     margin: 0 auto 0 auto;
     max-width: 600px;
+    padding: 20px;
+}
+
+em {
+    font-size: 1.3rem;
+    line-height: 1.4em;
+    text-transform: uppercase;
+}
+
+ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    max-width: 95%;
+    margin: 40px auto 40px auto;
+    border-radius: 20%;
+}
+
+li {
+    background-color: #E8A062;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
+}
+
+li:nth-child(even) {
+    background-color: #823922;
+    border-top: solid 5px;
+    border-bottom: solid 10px;
+    border-top-color: #FDC032;
+    border-bottom-color: #00A24B;
+}
+
+li:first-child {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+li:last-child {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #E8A062;
+    border-style: none;
+}
+
+h2 {
+    font-family: "Georgia", serif;
+    font-size: 2.5rem;
+    margin: 60px 0 20px 0;
+
+}
+
+a {
+    color: #00A24B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E8A062;
+}
+
+div, div strong {
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
+}
+
+footer {
+    background-color: #E8A062;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 40px auto;
+    max-width: 400px;
+    min-height: 50px;
+    border-top: 30px;
+    border-bottom: 30px;
+    border-bottom: 30px;
+    border-top: 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-family: Verdana, sans-serif;
 }
