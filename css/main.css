@@ -100,17 +100,17 @@ div, div strong {
 }
 
 footer {
-    background-color: #E8A062;
+    background-color: #823922;
     color: white;
     text-align: center;
     padding: 10px;
     margin: 20px auto 40px auto;
     max-width: 400px;
     min-height: 50px;
-    border-top: 30px;
-    border-bottom: 30px;
-    border-bottom: 30px;
-    border-top: 30px;
+    border-top: solid 30px;
+    border-bottom: solid 30px;
+    border-top-color: #E8A062;
+    border-bottom-color: #E8A062;
     border-radius: 30px;
     font-size: 1.2rem;
     font-family: Verdana, sans-serif;
